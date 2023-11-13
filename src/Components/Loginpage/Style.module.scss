@@ -1,0 +1,40 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.loginPage {
+
+     width: 276px;
+     height: 300px;
+     border: 2px solid;
+     padding: 35px 33px;
+     margin: 0 auto;
+     position: relative;
+     margin-top: 70px;
+
+     &>h2 {
+          text-align: center;
+     }
+
+     &__loginInput {
+
+          padding-top: 21px;
+
+          &>input {
+               width: 200px;
+               height: 30px;
+          }
+     }
+
+     &__login {
+          top: 78%;
+          width: 64px;
+          height: 26px;
+          font-size: 18px;
+          position: absolute;
+          left: 38%;
+     }
+
+}

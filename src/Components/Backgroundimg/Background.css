@@ -1,0 +1,26 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.image {
+     background-image: url("../../Image/marguerite-729510_640.jpg");
+     width: 500px;
+     height: 500px;
+     background-position: center;
+     background-repeat: no-repeat;
+
+}
+
+.box {
+     text-align: center;
+     padding-top: 71px;
+     background: blueviolet;
+     border: 1px solid;
+     height: 400px;
+}
+
+.box p {
+     padding-top: 71px;
+}

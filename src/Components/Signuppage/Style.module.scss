@@ -1,0 +1,60 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+.signupParent {
+     border: 2px solid;
+     width: 300px;
+     height: 430px;
+     margin: 0 auto;
+     padding: 36px 42px;
+     position: relative;
+
+     &>h2 {
+          text-align: center;
+          margin-bottom: 15px;
+     }
+
+     &__inputField {
+
+          &__input {
+
+               padding-bottom: 16px;
+
+               &>input {
+                    width: 214px;
+                    height: 33px;
+               }
+          }
+     }
+
+     &__subMitbtn {
+
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          column-gap: 39px;
+
+
+          &>button {
+               font-size: 17px;
+               width: 69px;
+               height: 30px;
+               position: absolute;
+               left: 38%;
+          }
+
+          &>div {
+               position: absolute;
+               color: darkgreen;
+               left: 67%;
+               font-weight: 500;
+               margin: 5px 0px;
+          }
+
+
+     }
+}

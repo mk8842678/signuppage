@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+// import Backimage from './Components/Backgroundimg/Background';
+import Boxmoving from './Components/Boxmoving/Boxmoving';
+import Signup from './Components/Signuppage/Signuppage';
+import Loginpage from './Components/Loginpage/Loginpage';
+import LoginAccess from './LoginAccessFromFacebook/LoginAccessFromFacebook';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Backimage /> */}
+      {/* <Boxmoving /> */}
+      <Signup />
+      {/* <Loginpage /> */}
+      {/* <LoginAccess /> */}
+    </>
+
+
   );
 }
 
